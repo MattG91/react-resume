@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+li, address, p, header {
+  justify-content: center;
+  text-align: center;
+}
+
+main ul li {
+  list-style: none;
+  margin: .4em 0;
+}
+
+main ul {
+  background-color: lightgray;
+  padding: .5em;
+  border-radius: 5px;
+}
+
+header, p {
+  background-color: lightblue;
+  padding: .5em;
+}
+
+main p {
+  text-decoration: underline;
+}
